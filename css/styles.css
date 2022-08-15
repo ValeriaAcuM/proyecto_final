@@ -1,0 +1,186 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 5%;
+  padding-right: 3%;
+  line-height: 1.5;
+  background-color: #8E8E8E;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+h1 {
+  padding-left: 100px;
+}
+
+li {
+  display: inline;
+  margin-left: 50px;
+}
+
+p {
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.nav {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #D6908A;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+
+.personal_info {
+  box-sizing: content-box;
+  background-color: #E3EEFA;
+  display: flex;
+  margin-top: 70px;
+  color: black
+}
+
+.personal_info span {
+  display: block;
+  margin-left: -370px;
+}
+
+.text_personal {
+  margin-top: 100px;
+}
+
+.personal_photo img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  box-shadow: -9px 12px 0px 6px #cfcae6;
+}
+
+.personal_photo {
+  width: 200px;
+  height: 200px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.h2_proyects {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.p_proyects {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.img_proyects1 {
+  width: 265px;
+  height: 165px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.img_proyects1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-wrap {
+  border-bottom: 2px solid rgb(235, 233, 233);
+}
+
+.ft-work {
+  margin-left: 20px;
+}
+
+.ft-work h3 {
+  font-size: 22px;
+}
+
+.tags span:first-child {
+  border-right: 1px solid;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.date-tag {
+  background-color: #DDF05D;
+  border-radius: 15px;
+  color: black;
+  padding: 5px 20px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.section_form {
+  box-sizing: content-box;
+  background-color: #FDD485;
+  text-align: center;
+  padding: 20px 30px 60px 50px;
+  border-radius: 15px;
+  margin-top: 20px;
+  color: black;
+}
+
+.section_email span {
+  display: block;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+footer {
+  box-sizing: content-box;
+  background-color: #D6908A;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+  color: black;
+}
+
+.p_footer {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px
+}
+
+.name_footer {
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px
+}
+
+.img_footer {
+  margin-left: 550px;
+  margin-top: 10px;
+}
+
+.img_github {
+  width: 1200px;
+  height: 300px;
+}
+
+.img_github img {
+  max-width: 19%;
+  max-height: 10%;
+}
+
+.p_copyright {
+  text-align: center;
+  font-weight: 500px;
+  font-size: 20px;
+}

@@ -1,0 +1,144 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #8E8E8E;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+li {
+  display: inline;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.nav {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #D6908A;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.introduccion {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.introduccion span {
+  display: block;
+  font-weight: 700px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.img_proyects1 {
+  width: 240px;
+  height: 140px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.img_proyects1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img_walter {
+  width: 390px;
+  height: 150px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.img_walter {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-wrap {
+  border-bottom: 2px solid rgb(235, 233, 233);
+}
+
+.ft-work {
+  margin-left: 20px;
+}
+
+.ft-work h3 {
+  font-size: 22px;
+}
+
+.tags span:first-child {
+  border-right: 1px solid;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.date-tag {
+  background-color: #DDF05D;
+  border-radius: 15px;
+  color: black;
+  padding: 5px 20px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+footer {
+  box-sizing: content-box;
+  background-color: #D6908A;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+  color: black;
+}
+
+.p_footer {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px
+}
+
+.name_footer {
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px
+}
+
+.img_footer {
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+.img_github {
+  width: 1200px;
+  height: 300px;
+}
+
+.img_github img {
+  max-width: 19%;
+  max-height: 10%;
+}
+
+.p_copyright {
+  text-align: center;
+  font-weight: 500px;
+  font-size: 20px;
+}
